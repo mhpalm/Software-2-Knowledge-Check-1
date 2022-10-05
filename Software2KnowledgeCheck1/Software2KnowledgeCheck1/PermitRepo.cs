@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Software2KnowledgeCheck1
 {
-    internal class ZoningAndPermitRepo
+    internal class PermitRepo
     {
-        public bool ZoningApproves() => true;
-
-        public bool GetPermit() => true;
+        public static bool GetPermit() => true;
     }
 }
